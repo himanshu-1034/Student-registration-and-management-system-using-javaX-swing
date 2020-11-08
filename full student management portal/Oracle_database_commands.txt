@@ -1,0 +1,28 @@
+
+NOTE: you can simply skip drop commands if you are starting your database from scratch or your workspace is empty. these commands are only to make sure that there are no matching tables or sequences.
+
+drop sequence student_id
+drop sequence admin_id
+drop table student
+drop table admin
+
+
+
+
+create table admin(id number(11),mail varchar2(255),password varchar2(255),name varchar2(255), primary key(id))
+
+
+
+create table student(id number(11),stdname varchar2(255),stdfathername varchar2(255),stdblood varchar2(255),stdphone varchar2(255),stdcity varchar2(255),class number(11),primary key(id))
+
+
+
+create sequence student_id start with 1 increment by 1
+
+
+
+create sequence admin_id start with 1 increment by 1
+
+
+
+
