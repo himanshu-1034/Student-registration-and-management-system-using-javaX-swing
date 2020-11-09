@@ -7,7 +7,7 @@ public class connect_to_oracle {
 		
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-		     connection=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","student","Himanshu30@");
+		     connection=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","","");
 		     //System.out.print("connection done");
 		} catch (ClassNotFoundException e1) {
 			e1.printStackTrace();
