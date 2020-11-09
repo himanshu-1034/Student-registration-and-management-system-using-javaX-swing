@@ -1,4 +1,7 @@
 
+**** run This project with "login.java" *****
+
+
 NOTE: you can simply skip drop commands if you are starting your database from scratch or your workspace is empty. these commands are only to make sure that there are no matching tables or sequences.
 
 drop sequence student_id
@@ -22,6 +25,11 @@ create sequence student_id start with 1 increment by 1
 
 
 create sequence admin_id start with 1 increment by 1
+
+
+
+
+
 
 
 
